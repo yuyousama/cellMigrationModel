@@ -1,15 +1,14 @@
-# cellMigrationModel
+This repository contains the Python source code for a Monte Carlo simulation of cell behavior.
 
-This is the Python source code for a Monte Carlo approach to simulating cell behavior.
+1. System Requirements
+This program was developed and tested using Python version 3.9.12 on Windows 10. Compatibility with other Python versions or operating systems has not been verified. Please note that Python 3.9+ is incompatible with Windows 7 or earlier. The program requires the numpy, pylab, and gc modules.
 
-1. System requirements
-   This program was written under Python 3.9.12. This program was written and tested under Python version 3.9.12 and has not been tested to run on other versions of Python. Note that Python 3.9+ cannot be used on Windows 7 or earlier. The numpy, pylab, and gc modules need to be imported.
-
-2. Installation guide
-   The program itself can be downloaded and run directly after installing the corresponding version of the Python program in advance. You can visit https://www.python.org/ to get the latest version of Python and the corresponding installation documentation. I believe this will take about 5 to 30 minutes, typically.
+2. Installation Guide
+The program can be downloaded and run directly after installing the appropriate Python version. Visit Python's official website (https://www.python.org/) to download Python and access installation instructions. The entire installation process typically takes 5 to 30 minutes.
 
 3. Demo
-   This is a simulation program and does not require demo data to run. The program outputs several .csv files and corresponding images to describe the various properties of the simulated cells over time. The time required for the simulation is related to the computer configuration; on the authors' computer, it took 1-3 minutes to complete the simulation of one cell.
+This simulation program does not require additional input data to run. However, pre-generated simulation results are provided in the Demo folder for reference. The program outputs several .csv files containing the properties of simulated cells over time, similar to those in the Demo folder. Simulation times vary depending on hardware; on the authors' system (i5-10400F CPU, 16GB RAM), simulating one cell typically takes 1–3 minutes.
 
-4. Instructions for use
-   After installing Python, just run the “python model_clear_version.py” command line (without quotes) in the model directory.
+4. Instructions for Use
+After installing Python, navigate to the program directory and run the following command in the terminal:
+      python model_clear_version.py
