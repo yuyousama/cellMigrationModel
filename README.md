@@ -12,3 +12,6 @@ This simulation program does not require additional input data to run. However, 
 4. Instructions for Use
 After installing Python, navigate to the program directory and run the following command in the terminal:
       python model_clear_version.py
+
+5. Generated Data
+A Folder will be created, with simulated .csv data and .png picture. The csv data file contains binding ratio, clutch force, clutch displacement, substrate displacement, radius of cell, and force on substrate.
