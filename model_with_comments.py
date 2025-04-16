@@ -126,7 +126,7 @@ if __name__ == '__main__':
         'alpha': 0.2,  # Integrin density increment rate, 0.2 pN-1, fitting parameter
         'fb': 2.0,  # Characteristic breakage force, 2.0 pN
         'delta_t': 5,  # time step, 5 ms
-        'vr': 0.12,  # retrograde flow velocity. The retrograde flow velocity remains at max speed since the beginning of the simulation.
+        'vr': 0.12,  # The retrograde flow velocity. Maintain at its maximum value.
         'kc': 5.0,  # stiffness of clutch, 5 pN/nm
         'ks': 2.2,  # ECM stiffness
         'r0': 5000,  # Initial spreading radius, 5 μm, or 5000 nm
